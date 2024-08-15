@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 1200px) {
+  .container{
+    width: 80%;
+  }
+
+}
+@media (max-width: 524px) {
+  .container{
+    width: 90%;
+    height: 60%;
+  }
+
+}
